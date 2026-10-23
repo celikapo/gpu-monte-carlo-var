@@ -5,15 +5,6 @@ exact terminal serial Monte Carlo, an analytical reference and 95%/99% outputs.
 The contribution is computational correctness; no predictive market validity or
 investment suitability is claimed.
 
-This repository represents selected academic submission scope through week 8.
-It is not a complete inventory of development progress. Later work exists in the
-source project and is deliberately outside this submission.
-
-Prepared and first published on 2026-10-23. The initial snapshot commit
-c906eb49994a0edab0f4f2c392caf494765a456c was pushed normally to this repository;
-its exact-SHA CPU workflow passed. See [validation](docs/validation.md) for the
-run and scope. Publication is not academic submission; no historical completion
-date is inferred from commit dates.
 
 ## Build and test
 
