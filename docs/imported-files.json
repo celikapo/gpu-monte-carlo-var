@@ -1,0 +1,92 @@
+[
+    {
+        "path":  "CMakeLists.txt",
+        "source_revision":  "254de8de639248c82cc68fb23e28be4030bc81ed",
+        "git_blob":  "978aa818b1c9e741aae1ee3dc20b3400c907c774",
+        "sha256":  "db44941649795186a9a27dbccbc525bd725f10ffd3476f8254bf0871a4c922b6"
+    },
+    {
+        "path":  "include/mc/core.hpp",
+        "source_revision":  "254de8de639248c82cc68fb23e28be4030bc81ed",
+        "git_blob":  "7d4dc34eb064d50773f1000e09bdffe39686fb8b",
+        "sha256":  "721e670affb5d8ce03c8e1fa3e50ca9530db54c31ad8c4c371989f0ccf97d38c"
+    },
+    {
+        "path":  "include/mc/data.hpp",
+        "source_revision":  "254de8de639248c82cc68fb23e28be4030bc81ed",
+        "git_blob":  "3dc92d3f6df653a4e0e7daf0123b4217ce708e46",
+        "sha256":  "a2698c905f16124a005dd1837e4d8e8c02e7ad62a1c28afc4a016fba2847c51f"
+    },
+    {
+        "path":  "include/mc/output.hpp",
+        "source_revision":  "254de8de639248c82cc68fb23e28be4030bc81ed",
+        "git_blob":  "6cfd3b3d7ca79b72911e7cd15125f483c95c0e66",
+        "sha256":  "d8e0ebc5aa7308289fe1d1b4490874d59a89668b5cbc85929462846ad3e4f686"
+    },
+    {
+        "path":  "src/core.cpp",
+        "source_revision":  "254de8de639248c82cc68fb23e28be4030bc81ed",
+        "git_blob":  "e78dbb16f25187aa58e96fdbf246068ac6549be0",
+        "sha256":  "74221c6160f3eadfdaf71818fda5c094782f7e3d19d0bd65fe870bf773476440"
+    },
+    {
+        "path":  "src/data.cpp",
+        "source_revision":  "254de8de639248c82cc68fb23e28be4030bc81ed",
+        "git_blob":  "ef02a4335d809f740523cf94f3560de88729f35d",
+        "sha256":  "aaf14441379d3a89aa853f9b445107900cb3a98bef95fb1df297ae59ac3e2373"
+    },
+    {
+        "path":  "src/main.cpp",
+        "source_revision":  "254de8de639248c82cc68fb23e28be4030bc81ed",
+        "git_blob":  "2fd55d7d41b1b37ea0cc8e127250629b23d2196e",
+        "sha256":  "23443bb148b0b24d3104f9ba0f82e34b8df9b8c2cc20ab7dccf5f5cedbcf4ae3"
+    },
+    {
+        "path":  "src/output.cpp",
+        "source_revision":  "254de8de639248c82cc68fb23e28be4030bc81ed",
+        "git_blob":  "2c680810de89292d07fd5cc998bb0b9845d34047",
+        "sha256":  "bcc510f4e1086eb580c0cd31389b5fda7e837d6fb316ac189ef510c6b15d70f5"
+    },
+    {
+        "path":  "tests/test_core.cpp",
+        "source_revision":  "254de8de639248c82cc68fb23e28be4030bc81ed",
+        "git_blob":  "a3444d307f1a65f1544a5aba092f51b3383bedd3",
+        "sha256":  "1b7a917688c3782223f41a1fbb624f1cdbe9ff00daecdd761e6d8855b0877ee5"
+    },
+    {
+        "path":  "tests/test_data.cpp",
+        "source_revision":  "254de8de639248c82cc68fb23e28be4030bc81ed",
+        "git_blob":  "71e6cd70f7727408573c18230cc33097f8d24aee",
+        "sha256":  "f1c9762a57c631fbf373defd20f8accab32a6637c518a9cfde22afea180dada2"
+    },
+    {
+        "path":  "tests/test_output.cpp",
+        "source_revision":  "254de8de639248c82cc68fb23e28be4030bc81ed",
+        "git_blob":  "08139b7f95f5023f8e2106acf55522c573568cc4",
+        "sha256":  "cff0c55ffd547bc2a05774c2d7f02bba9c61f0a154d9dda79d9c893a5df08d38"
+    },
+    {
+        "path":  "data/synthetic_prices.csv",
+        "source_revision":  "254de8de639248c82cc68fb23e28be4030bc81ed",
+        "git_blob":  "cd1d5ccfa54a839b61fca4f0f008d37072073107",
+        "sha256":  "8dbb7c73e6ad48cb8c8c175aff6684d2a0433e5f08424ec7ea1e69037bb36210"
+    },
+    {
+        "path":  "evidence/cuda-probe-20261016/CMakeLists.txt",
+        "source_revision":  "254de8de639248c82cc68fb23e28be4030bc81ed",
+        "git_blob":  "245919bd3914e72df4a5aee31938cb38aca8bbd1",
+        "sha256":  "47836e490e2d8394179ae9d9e2a07b4e4d3f6197a2ee7c9cef150a5819963574"
+    },
+    {
+        "path":  "evidence/cuda-probe-20261016/probe.cu",
+        "source_revision":  "254de8de639248c82cc68fb23e28be4030bc81ed",
+        "git_blob":  "ddc60911dd90e0161a29d4a20eb33e7c72cdd468",
+        "sha256":  "099da6679b8abdb0c539fe970d5e83182beb4ab7b487b51a65c86e939b4e16dc"
+    },
+    {
+        "path":  "evidence/cuda-probe-20261016/execution.log",
+        "source_revision":  "254de8de639248c82cc68fb23e28be4030bc81ed",
+        "git_blob":  "2ba0da2c153fbad6e5da012362102620fc4c4395",
+        "sha256":  "d09a44fc95690ca1889c8474b022155bd2475faa84481bde123e4c7847358737"
+    }
+]

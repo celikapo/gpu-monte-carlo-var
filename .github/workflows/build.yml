@@ -1,0 +1,28 @@
+name: CPU build and tests
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  cpu:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+      - name: Configure serial CPU Release
+        run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=ON
+      - name: Build
+        run: cmake --build build --parallel
+      - name: Existing CTest suite
+        run: ctest --test-dir build --output-on-failure
+      - name: Representative serial runs and explicit rejection
+        shell: bash
+        run: |
+          ./build/mc_var --version
+          ./build/mc_var 10000 42
+          ./build/mc_var --csv data/synthetic_prices.csv 10000 42 10 252 --json
+          if ./build/mc_var 0 42 --json > invalid.stdout 2> invalid.stderr; then
+            echo 'Zero scenarios unexpectedly succeeded'
+            exit 1
+          fi
+          test ! -s invalid.stdout
+          grep -q '^Error:' invalid.stderr
