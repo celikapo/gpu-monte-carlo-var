@@ -9,10 +9,11 @@ This repository represents selected academic submission scope through week 8.
 It is not a complete inventory of development progress. Later work exists in the
 source project and is deliberately outside this submission.
 
-Prepared on 2026-10-23. **Not yet published**: the available GitHub identity has
-no write permission on the intended target. Preparation is not publication or
-academic submission. The first actual publication date must be recorded after
-successful push; no historical completion date is inferred from commit dates.
+Prepared and first published on 2026-10-23. The initial snapshot commit
+c906eb49994a0edab0f4f2c392caf494765a456c was pushed normally to this repository;
+its exact-SHA CPU workflow passed. See [validation](docs/validation.md) for the
+run and scope. Publication is not academic submission; no historical completion
+date is inferred from commit dates.
 
 ## Build and test
 
@@ -68,7 +69,7 @@ and origin in [provenance](docs/provenance.md).
 - [Source provenance, schedule sources and attribution](docs/provenance.md)
 - [Validation and historical CUDA compatibility limits](docs/validation.md)
 - [Target CPU workflow](https://github.com/celikapo/gpu-monte-carlo-var/actions/workflows/build.yml)
-  is configured for one Ubuntu Release job. No successful target run is claimed.
+  runs one Ubuntu Release job. The initial exact-SHA run passed (see validation).
 
 OpenMP, an end-to-end CUDA VaR skeleton, full CUDA/hybrid engines, full statistical
 acceptance campaigns, formal performance benchmarks, convergence, DRAM profiling

@@ -84,11 +84,18 @@ Root CMake does not enable CUDA/OpenMP or discover a Toolkit. The standalone
 CUDA subproject is not configured in CI. No unavailable advanced scripts,
 private data or source history is required.
 
-Target publication and exact-SHA Actions verification are blocked: the existing
-GitHub identity rahmancelik74-cmd has pull=true/push=false on the empty public
-celikapo/gpu-monte-carlo-var repository. No push was attempted after that genuine
-permission barrier. A target owner must grant write access to the existing
-identity. No account switch, repository creation or force-push is authorized.
-After access is granted, recheck the target, record the actual publication date,
-push normally and verify remote HEAD and the Actions outcome for that exact SHA.
-Until then there is no target workflow run URL or actual job outcome.
+The initial preparation encountered a genuine write-permission barrier. After
+the collaborator invitation was accepted, the existing identity rahmancelik74-cmd
+was verified with push=true on the exact target. No account was switched.
+
+First publication: 2026-10-23 (push confirmation at 02:40:00 UTC), using a normal
+push of c906eb49994a0edab0f4f2c392caf494765a456c to main. Remote main matched
+that exact SHA. Its [actual target Actions run](https://github.com/celikapo/gpu-monte-carlo-var/actions/runs/39890809091)
+completed successfully at 02:40:14 UTC: 1/1 job, cpu, passed. Configure, build,
+existing CTest suite and representative serial/CSV/invalid-input steps passed.
+This is hosted CPU execution, not CUDA execution or statistical acceptance.
+
+This follow-up documentation commit records the verified initial publication;
+the run above belongs specifically to the initial SHA. Subsequent revisions
+have their own exact-SHA workflow runs. No force-push, history transfer or
+academic submission was performed.

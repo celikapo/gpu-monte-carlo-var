@@ -1,8 +1,9 @@
 # Source provenance and attribution
 
-Prepared 2026-10-23 for the exact intended target
-https://github.com/celikapo/gpu-monte-carlo-var. Publication is blocked by write
-permission; no target commit, CI result or academic submission is claimed.
+Prepared and first published 2026-10-23 to the exact authorized target
+https://github.com/celikapo/gpu-monte-carlo-var. The initial published commit is
+c906eb49994a0edab0f4f2c392caf494765a456c; its CPU workflow passed as recorded in
+[validation](validation.md). No academic submission is claimed.
 
 All implementation, CMake, existing tests, synthetic input and standalone probe
 files are selected unchanged from the real committed source revision:

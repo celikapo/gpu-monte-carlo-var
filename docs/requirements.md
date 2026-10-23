@@ -25,7 +25,7 @@ scope; partial coverage never means the full-project requirement is satisfied.
 | NFR-6 | Double/common quantile; common-input cross-engine difference <=.00001*V0; separate memory/race checks | Partially covered: double, rank and serial common inputs; no multi-engine or sanitizer certification |
 | NFR-7 | N=100000,1000000,10000000; 3 excluded warm-ups +10 measured/config; mean, sample SD, scenarios/s | Outside this snapshot; no formal benchmark |
 | NFR-8 | Exact-byte experiment hashes/Git dirty state and two same-build/input/seed/backend repeats | Partially covered: source/fixture hashes and existing same-build repeat unit check; no campaign manifests |
-| NFR-9 | Release: zero build errors, all registered tests pass, >=1 successful basic CI | Partially covered: local Release checks recorded separately; target CI pending publication permission |
+| NFR-9 | Release: zero build errors, all registered tests pass, >=1 successful basic CI | Covered within serial CPU scope: local Release checks passed and initial target exact-SHA CI passed 1/1 job; see validation.md |
 
 Full-project NFR-7 uses sample SD denominator 9 for ten samples, retains slow
 samples, and records environment/placement/power/thermal limits. The proposal's
